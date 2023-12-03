@@ -10,7 +10,6 @@
 	<bean name="scores" class="com.aswin.spring.springCore.refTypes.Scores" 
 		p:maths="99" p:physics="95" p:chemistry="80"/>
 		
-	<bean name="student" class="com.aswin.spring.springCore.refTypes.Student">
-		<property name="scores" ref="scores" />
+	<bean name="student" class="com.aswin.spring.springCore.refTypes.Student" p:scores-ref="scores">
 	</bean>
 </beans>
