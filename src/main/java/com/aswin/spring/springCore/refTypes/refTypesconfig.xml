@@ -11,8 +11,6 @@
 		p:maths="99" p:physics="95" p:chemistry="80"/>
 		
 	<bean name="student" class="com.aswin.spring.springCore.refTypes.Student">
-		<property name="scores">
-			<ref bean="scores" />
-		</property>
+		<property name="scores" ref="scores" />
 	</bean>
 </beans>
