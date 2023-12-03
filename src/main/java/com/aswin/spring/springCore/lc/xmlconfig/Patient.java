@@ -10,6 +10,21 @@ public class Patient {
 
 	public void setId(int id) {
 		this.id = id;
+		System.out.println("Inside set method");
 	}
 	
+	public void hi()
+	{
+		System.out.println("Inside hi method");
+	}
+	
+	public void bye()
+	{
+		System.out.println("Inside Bye method");
+	}
+
+	@Override
+	public String toString() {
+		return "Patient [id=" + id + "]";
+	}
 }

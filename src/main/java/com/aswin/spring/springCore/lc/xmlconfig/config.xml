@@ -7,6 +7,5 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean name="emp" class="com.aswin.spring.springCore.Employee" p:id= "20" p:name="Aswin">
-	</bean>
+	<bean name="patient" class="com.aswin.spring.springCore.lc.xmlconfig.Patient" p:id= "20" init-method="hi" destroy-method="bye" />
 </beans>
