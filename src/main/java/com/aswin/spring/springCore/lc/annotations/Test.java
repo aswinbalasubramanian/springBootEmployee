@@ -11,8 +11,7 @@ public class Test {
 		AbstractApplicationContext context = new ClassPathXmlApplicationContext("com/aswin/spring/springCore/lc/annotations/listconfig.xml");
 		Patient patient = (Patient) context.getBean("patient");
 		System.out.println(patient);
-		context.registerShutdownHook();
-		
+		context.registerShutdownHook();		
 	}
 
 }

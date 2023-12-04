@@ -8,5 +8,5 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<bean class="com.aswin.spring.springCore.lc.annotations.Patient" name="patient" p:id="10"/>
-	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor" />
+	<context:annotation-config />
 </beans>
